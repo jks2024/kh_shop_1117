@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +22,7 @@ public class ThymeleafExController {
         model.addAttribute("itemDto", itemDto);
         return "thymeleafEx/thymeleafEx02";
     }
-    @GetMapping("/ex03")
+    @GetMapping("/ex04")
     public String thymeleafExample03(Model model) {
         List<ItemDto> itemDtoList = new ArrayList<>();
         for(int i = 1; i <= 10; i++) {
@@ -36,7 +35,17 @@ public class ThymeleafExController {
             itemDtoList.add(itemDto);
         }
         model.addAttribute("itemDtoList", itemDtoList);
-        return "thymeleafEx/thymeleafEx03";
+        return "thymeleafEx/thymeleafEx04";
+    }
+    @GetMapping("/ex05")
+    public String thymeleafExample05() {
+        return "thymeleafEx/thymeleafEx05";
+    }
+    @GetMapping("/ex06")
+    public String thymeleafExample06(String param1, String param2, Model model) {
+        model.addAttribute("param1", param1);
+        model.addAttribute("param2", param2);
+        return "thymeleafEx/thymeleafEx06";
     }
 
 }
