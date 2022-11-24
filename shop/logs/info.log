@@ -1,0 +1,170 @@
+[2022-11-17 14:29:09.916] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 16780 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:29:09.916] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:29:10.434] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:29:10.475] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:29:10.904] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:29:10.941] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:29:11.061] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:29:11.183] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:29:11.568] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:29:11.601] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:29:12.211] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:29:12.219] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:29:12.473] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:29:12.973] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:29:13.423] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.826 seconds (JVM running for 4.655)
+[2022-11-17 14:29:13.639] [INFO ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:29:13.528601700, updateTime=2022-11-17T14:29:13.528601700)
+[2022-11-17 14:29:13.655] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:29:13.657] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:29:13.670] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:29:20.396] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 19208 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:29:20.397] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:29:20.987] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:29:21.022] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:29:21.444] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:29:21.485] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:29:21.631] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:29:21.758] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:29:22.030] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:29:22.055] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:29:22.633] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:29:22.640] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:29:22.840] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:29:23.352] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:29:23.837] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.835 seconds (JVM running for 4.739)
+[2022-11-17 14:29:24.073] [INFO ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:29:23.963703200, updateTime=2022-11-17T14:29:23.963703200)
+[2022-11-17 14:29:24.088] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:29:24.089] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:29:24.096] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:29:37.455] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 18592 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:29:37.456] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:29:38.017] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:29:38.066] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:29:38.551] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:29:38.598] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:29:38.749] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:29:38.880] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:29:39.134] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:29:39.159] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:29:39.752] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:29:39.759] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:29:39.994] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:29:40.435] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:29:40.821] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.744 seconds (JVM running for 4.614)
+[2022-11-17 14:29:41.068] [INFO ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:29:40.961095900, updateTime=2022-11-17T14:29:40.961095900)
+[2022-11-17 14:29:41.089] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:29:41.091] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:29:41.101] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:30:01.129] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 5272 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:30:01.130] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:30:01.696] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:30:01.733] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:30:02.297] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:30:02.347] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:30:02.491] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:30:02.619] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:30:02.913] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:30:02.942] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:30:03.439] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:30:03.445] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:30:03.675] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:30:04.129] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:30:04.541] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.822 seconds (JVM running for 4.635)
+[2022-11-17 14:30:04.766] [INFO ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:30:04.662947400, updateTime=2022-11-17T14:30:04.662947400)
+[2022-11-17 14:30:04.781] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:30:04.784] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:30:04.802] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:30:17.986] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 8296 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:30:17.987] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:30:18.437] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:30:18.473] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:30:18.926] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:30:18.972] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:30:19.123] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:30:19.262] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:30:19.586] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:30:19.616] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:30:20.244] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:30:20.253] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:30:20.483] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:30:20.907] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:30:21.263] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.583 seconds (JVM running for 4.357)
+[2022-11-17 14:30:21.467] [INFO ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:30:21.373466100, updateTime=2022-11-17T14:30:21.373466100)
+[2022-11-17 14:30:21.484] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:30:21.487] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:30:21.501] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:30:30.094] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 13208 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:30:30.095] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:30:30.623] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:30:30.670] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:30:31.174] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:30:31.213] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:30:31.346] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:30:31.496] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:30:31.814] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:30:31.845] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:30:32.505] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:30:32.513] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:30:32.779] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:30:33.281] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:30:33.751] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.963 seconds (JVM running for 4.735)
+[2022-11-17 14:30:33.989] [INFO ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:30:33.877273600, updateTime=2022-11-17T14:30:33.877273600)
+[2022-11-17 14:30:34.004] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:30:34.006] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:30:34.017] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:32:03.185] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 17520 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:32:03.186] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:32:03.764] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:32:03.808] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:32:04.304] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:32:04.348] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:32:04.481] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:32:04.608] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:32:04.900] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:32:04.925] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:32:05.447] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:32:05.454] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:32:05.701] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:32:06.101] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:32:06.473] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.612 seconds (JVM running for 4.481)
+[2022-11-17 14:32:06.695] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:32:06.697] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:32:06.709] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:32:25.273] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 15772 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:32:25.275] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:32:25.861] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:32:25.899] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:32:26.417] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:32:26.472] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:32:26.605] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:32:26.739] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:32:27.031] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:32:27.062] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:32:27.581] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:32:27.588] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:32:27.832] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:32:28.245] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:32:28.605] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.658 seconds (JVM running for 4.495)
+[2022-11-17 14:32:28.808] [ERROR] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:32:28.708969500, updateTime=2022-11-17T14:32:28.708969500)
+[2022-11-17 14:32:28.824] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:32:28.826] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:32:28.837] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-11-17 14:43:11.434] [INFO ] [main] com.shop.repository.ItemRepositoryTest Starting ItemRepositoryTest using Java 11.0.16 on DESKTOP-O08JD9T with PID 14808 (started by user1 in C:\Users\user1\Downloads\shop_1117\shop)
+[2022-11-17 14:43:11.435] [INFO ] [main] com.shop.repository.ItemRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 14:43:11.975] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 14:43:12.016] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+[2022-11-17 14:43:12.494] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 14:43:12.548] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-11-17 14:43:12.701] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-11-17 14:43:12.836] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-11-17 14:43:13.166] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-11-17 14:43:13.197] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-11-17 14:43:13.788] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 14:43:13.794] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:43:14.034] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 14:43:14.434] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 14:43:14.792] [INFO ] [main] com.shop.repository.ItemRepositoryTest Started ItemRepositoryTest in 3.703 seconds (JVM running for 4.549)
+[2022-11-17 14:43:14.988] [WARN ] [main] ItemRepositoryTest Item(id=1, itemNm=아메리카노, price=10000, stockNumber=100, itemDetail=그냥 노멀 커피 입니다., itemSellStatus=SELL, regTime=2022-11-17T14:43:14.892369700, updateTime=2022-11-17T14:43:14.892369700)
+[2022-11-17 14:43:15.003] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 14:43:15.005] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-11-17 14:43:15.016] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
